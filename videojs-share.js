@@ -1,4 +1,4 @@
-videojs.plugin('share', function (config) {
+videojs.registerPlugin('share', function (config) {
 
     config = {
         title: config.title || 'Поделиться',
